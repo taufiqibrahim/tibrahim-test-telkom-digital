@@ -60,15 +60,15 @@
         "updatedAt": "2021-07-13T12:18:06.388+07:00",
         "channel": "loket",
         "createdAt": "2021-01-13T02:35:17.254+07:00",
-        "vaccination": [
-            {
-                "vaccineCode": "W-8F132142",
-                "vaccineDate": "2021-03-13",
-                "vaccineLocation": {
-                    "name": "KLINIK WASPADA (PASPAMPRES)",
-                    "faskesCode": "N123456"
-                },
-                "vaccineStatus": 2,
-                "type": "first"
-            }
-        ]
+        "vaccination": {
+            "vaccineCode": "W-8F132142",
+            "vaccineDate": "2021-03-13",
+            "vaccineLocation": {
+                "name": "KLINIK WASPADA (PASPAMPRES)",
+                "faskesCode": "N123456"
+            },
+            "vaccineStatus": 2,
+            "type": "first"
+        }
+    }
+]
