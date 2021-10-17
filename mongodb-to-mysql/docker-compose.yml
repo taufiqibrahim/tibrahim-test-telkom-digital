@@ -47,3 +47,12 @@ services:
       MYSQL_DATABASE: example
     volumes:
       - ./mysql_init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  spark:
+    container_name: telkom-pyspark-notebook
+    image: jupyter/pyspark-notebook
+    ports:
+      - "8888:8888"
+      - "4040-4080:4040-4080"
+    volumes:
+      - ./notebooks:/home/jovyan/work/notebooks/

@@ -7,7 +7,7 @@ from pymongo import MongoClient
 fake = Faker()
 
 RANGE = 10000000
-# RANGE = 1000
+RANGE = 1000
 # RANGE = 5
 TZ_INFO = pytz.timezone('Asia/Jakarta')
 MONGO_HOST = "mongodb://root:example@localhost:27017"
