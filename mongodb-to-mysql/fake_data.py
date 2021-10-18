@@ -6,9 +6,7 @@ from pymongo import MongoClient
 
 fake = Faker()
 
-RANGE = 10000000
-RANGE = 1000
-# RANGE = 5
+RANGE = 1000000
 TZ_INFO = pytz.timezone('Asia/Jakarta')
 MONGO_HOST = "mongodb://root:example@localhost:27017"
 MONGO_DB = "local"
@@ -53,3 +51,5 @@ for _ in range(RANGE):
     }
     # print(data)
     collection.insert_one(data)
+
+print(f"{RANGE} has been inserted to MongoDB")
